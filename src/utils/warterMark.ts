@@ -11,7 +11,7 @@ const setWaterMark = (str: string) => {
   cans.fillStyle = 'rgba(200, 200, 200, 0.30)'
   cans.textAlign = 'center'
   cans.textBaseline = 'Middle'
-	cans.fillText(str, can.width / 10, can.height / 2)
+  cans.fillText(str, can.width / 10, can.height / 2)
   const div = document.createElement('div')
   div.id = id
   div.style.pointerEvents = 'none'
