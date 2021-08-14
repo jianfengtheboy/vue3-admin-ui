@@ -3,7 +3,7 @@
  * @param val 当前值字符串
  * @returns 返回处理后的字符串
  */
- export function verifyNumberIntegerAndFloat(val: string) {
+	export function verifyNumberIntegerAndFloat(val: string) {
 	// 匹配空格
 	let v = val.replace(/(^\s*)|(\s*$)/g, '')
 	// 只能是数字和小数点，不能是其他输入

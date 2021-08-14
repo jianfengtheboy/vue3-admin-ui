@@ -13,7 +13,7 @@ export function hexToRgb(str: string) {
 	hexs = str.match(/../g)
 	for (let i = 0; i < 3; i++) hexs[i] = parseInt(hexs[i], 16)
 	return hexs
-} 
+}
 
 /**
  * rgb颜色转Hex颜色
