@@ -6,11 +6,11 @@ import request from '/@/config/request'
  * @returns 返回接口数据
  */
 export function signIn(params: object) {
-	return request({
-		url: '/user/signIn',
-		method: 'post',
-		data: params
-	})
+  return request({
+    url: '/user/signIn',
+    method: 'post',
+    data: params
+  })
 }
 
 /**
@@ -19,9 +19,9 @@ export function signIn(params: object) {
  * @returns 返回接口数据
  */
 export function signOut(params: object) {
-	return request({
-		url: '/user/signOut',
-		method: 'post',
-		data: params
-	})
+  return request({
+    url: '/user/signOut',
+    method: 'post',
+    data: params
+  })
 }

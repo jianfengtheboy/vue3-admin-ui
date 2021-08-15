@@ -7,17 +7,17 @@ const requestOldRoutesModule: Module<RequestOldRoutesState, RootStateTypes> = {
     requestOldRoutes: []
   },
   mutations: {
-		// 后端控制路由
-		getBackEndControlRoutes(state: any, data: object) {
-			state.requestOldRoutes = data
-		}
-	},
-	actions: {
-		// 后端控制路由
-		setBackEndControlRoutes({ commit }, routes: Array<string>) {
-			commit('getBackEndControlRoutes', routes)
-		}
-	}
+    // 后端控制路由
+    getBackEndControlRoutes(state: any, data: object) {
+      state.requestOldRoutes = data
+    }
+  },
+  actions: {
+    // 后端控制路由
+    setBackEndControlRoutes({ commit }, routes: Array<string>) {
+      commit('getBackEndControlRoutes', routes)
+    }
+  }
 }
 
 export default requestOldRoutesModule

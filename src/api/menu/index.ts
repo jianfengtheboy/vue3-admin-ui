@@ -12,11 +12,11 @@ import request from '/@/config/request'
  * @returns 返回接口数据
  */
 export function getMenuAdmin(params?: object) {
-	return request({
-		url: '/gitee/lyt-top/vue-next-admin-images/raw/master/menu/adminMenu.json',
-		method: 'get',
-		params
-	})
+  return request({
+    url: '/gitee/lyt-top/vue-next-admin-images/raw/master/menu/adminMenu.json',
+    method: 'get',
+    params
+  })
 }
 
 /**
@@ -26,9 +26,9 @@ export function getMenuAdmin(params?: object) {
  * @returns 返回接口数据
  */
 export function getMenuTest(params?: object) {
-	return request({
-		url: '/gitee/lyt-top/vue-next-admin-images/raw/master/menu/testMenu.json',
-		method: 'get',
-		params
-	})
+  return request({
+    url: '/gitee/lyt-top/vue-next-admin-images/raw/master/menu/testMenu.json',
+    method: 'get',
+    params
+  })
 }

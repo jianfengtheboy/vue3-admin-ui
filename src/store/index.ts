@@ -11,9 +11,9 @@ for (const path in modulesFiles) {
 
 const modules = pathList.reduce((modules: { [x: string]: any }, modulePath: string) => {
   const moduleName = modulePath.replace(/^\.\/modules\/(.*)\.\w+$/, '$1')
-	const value = modulesFiles[modulePath]
-	modules[moduleName] = value.default
-	return modules
+  const value = modulesFiles[modulePath]
+  modules[moduleName] = value.default
+  return modules
 }, {})
 
 export const key: InjectionKey<Store<RootStateTypes>> = Symbol()

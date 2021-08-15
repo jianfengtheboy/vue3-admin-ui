@@ -8,16 +8,16 @@ const keepAliveNamesModule: Module<KeepAliveNamesState, RootStateTypes> = {
   },
   mutations: {
     // 设置路由缓存（name字段）
-		getCacheKeepAlive(state: any, data: Array<string>) {
-			state.keepAliveNames = data
-		}
+    getCacheKeepAlive(state: any, data: Array<string>) {
+      state.keepAliveNames = data
+    }
   },
   actions: {
-		// 设置路由缓存（name字段）
-		async setCacheKeepAlive({ commit }, data: Array<string>) {
-			commit('getCacheKeepAlive', data)
-		}
-	}
+    // 设置路由缓存（name字段）
+    async setCacheKeepAlive({ commit }, data: Array<string>) {
+      commit('getCacheKeepAlive', data)
+    }
+  }
 }
 
 export default keepAliveNamesModule
