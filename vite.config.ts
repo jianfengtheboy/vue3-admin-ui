@@ -1,7 +1,7 @@
 import vue from '@vitejs/plugin-vue'
 import { UserConfig } from 'vite'
 import { resolve } from 'path'
-import { loadEnv } from './src/utils/viteBuild'
+import { loadEnv } from '/@/config/viteBuild'
 
 const pathResolve = (dir: string): any => {
   return resolve(__dirname, '.', dir)
