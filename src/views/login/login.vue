@@ -1,6 +1,8 @@
 <template>
-  <div>
-
+  <div class="login-container">
+    <div class="login-logo">
+      <span></span>
+    </div>
   </div>
 </template>
 
