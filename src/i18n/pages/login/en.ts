@@ -8,12 +8,12 @@ export default {
     two4: 'Links',
   },
   copyright: {
-    one5: 'Copyright: Shenzhen XXX Software Technology Co., Ltd',
-    two6: 'Copyright: Shenzhen XXX software technology Guangdong ICP preparation no.05010000',
+    one5: 'Copyright: xxx Co., Ltd',
+    two6: 'Copyright: ',
   },
   account: {
-    accountPlaceholder1: 'The user name admin or not is test',
-    accountPlaceholder2: 'Password: 123456',
+    accountPlaceholder1: 'Please enter the user name',
+    accountPlaceholder2: 'Please enter the Password',
     accountPlaceholder3: 'Please enter the verification code',
     accountBtnText: 'Sign in',
   },

@@ -8,12 +8,12 @@ export default {
     two4: '友情連結',
   },
   copyright: {
-    one5: '版權所有：深圳市xxx軟件科技有限公司',
-    two6: 'Copyright: Shenzhen XXX Software Technology 粵ICP備05010000號',
+    one5: '版權所有：xxx公司',
+    two6: 'Copyright: ',
   },
   account: {
-    accountPlaceholder1: '用戶名admin或不輸均為test',
-    accountPlaceholder2: '密碼：123456',
+    accountPlaceholder1: '請輸入用戶名',
+    accountPlaceholder2: '請輸入密碼',
     accountPlaceholder3: '請輸入驗證碼',
     accountBtnText: '登入',
   },
